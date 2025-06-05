@@ -2,22 +2,18 @@ package com.jinhui.wmiss.root;
 
 //import com.ecquaria.lowcode.utils.StringUtil;
 
-import java.io.IOException;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.URI;
 import java.net.http.HttpResponse;
-import java.util.Scanner;
 
-import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.jinhui.wmiss.entity.DeepSeekDto;
+import com.jinhui.pojo.DeepSeekDto;
 
 import lombok.extern.slf4j.Slf4j;
 

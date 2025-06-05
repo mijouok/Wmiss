@@ -1,7 +1,7 @@
 package com.jinhui.wmiss.controller;
 
 
-import com.jinhui.wmiss.root.R;
+import com.jinhui.pojo.R;
 import com.jinhui.wmiss.root.TestDeepSeekService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
